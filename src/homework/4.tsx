@@ -54,7 +54,7 @@ function MenuProvider({ children }: PropsProvider) {
 }
 
 type PropsMenu = {
-  menu: Menu;
+  menus: Menu;
 };
 
 function MenuComponent({ menus }: PropsMenu) {
